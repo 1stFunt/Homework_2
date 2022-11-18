@@ -34,7 +34,8 @@ while (number > 999 || number < -999)
     }
 }
 
-/*Второй вариант:
+//Второй вариант:
+
 Console.WriteLine("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 int searchNumber = 3;
@@ -69,7 +70,8 @@ else
     Console.WriteLine(number % 10);
 }
 
-Третий вариант:
+//Третий вариант:
+
 Console.Write("Введи число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 string numberText = Convert.ToString(number);
@@ -80,4 +82,4 @@ if (numberText.Length > 2)
 else
 {
     Console.WriteLine("Третьей цифры нет");
-}*/
+}
